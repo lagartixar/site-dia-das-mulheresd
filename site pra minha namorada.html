@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia das Mulheres - Meu Amor para Você!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: rgba(255, 0, 0, 0.8);
+            padding: 15px;
+            color: white;
+            font-size: 2.2em;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        .container {
+            padding: 10px;
+        }
+
+        h2 {
+            color: #ff1493;
+            font-size: 1.6em;
+        }
+
+        .content-section {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 8px;
+            margin: 10px 0;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .charadas {
+            margin-top: 10px;
+        }
+
+        .charadas div {
+            background-color: #ff1493;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 5px 0;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        .photo-gallery img {
+            width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .message {
+            margin: 15px 0;
+            font-size: 1.3em;
+            color: #ff1493;
+        }
+
+        .message button {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            border: none;
+            color: white;
+            font-size: 1.1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .message button:hover {
+            background-color: #ff1493;
+        }
+
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            padding: 10px;
+            font-size: 1.1em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Animações */
+        @keyframes pulse {
+            0% { transform: scale(1); color: #ff1493; }
+            100% { transform: scale(1.05); color: #ff69b4; }
+        }
+
+        /* Efeito de queda das pétalas mais sutil */
+        .peta-rosa {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            width: 25px;
+            height: 25px;
+            background: url('https://www.transparenttextures.com/patterns/roses.png') no-repeat center center;
+            background-size: cover;
+            animation: fall 6s linear infinite;
+            opacity: 0.8;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(-100px); opacity: 1; }
+            100% { transform: translateY(100vh); opacity: 0; }
+        }
+
+        /* Coração pulsando suave */
+        .heart {
+            position: absolute;
+            top: 12%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2.5em;
+            color: #ff1493;
+            animation: heart-beat 2s infinite;
+        }
+
+        @keyframes heart-beat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Responsividade - para telas pequenas */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            .content-section h2 {
+                font-size: 1.4em;
+            }
+            .message button {
+                width: 90%;
+                font-size: 1.2em;
+            }
+            .charadas div {
+                width: 90%;
+                margin: 5px auto;
+                padding: 10px;
+            }
+            .photo-gallery img {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Feliz Dia das Mulheres, Minha Amada!</h1>
+    </header>
+
+    <div class="heart">❤️</div> <!-- Coração pulsando -->
+
+    <div class="container">
+        <div class="content-section">
+            <h2>Mensagens Fofas para Você</h2>
+            <p>Você é a razão do meu sorriso, a luz que ilumina os meus dias. A cada momento, me sinto mais grato por ter você ao meu lado. Te amo imensamente!</p>
+            <button onclick="alert('Eu te amo mais do que tudo!')">Clique para um Recadinho</button>
+        </div>
+
+        <div class="content-section">
+            <h2>Charadas Divertidas</h2>
+            <div class="charadas">
+                <div>
+                    <p><strong>Charada 1:</strong> O que é, o que é: tem pétalas, mas não é uma flor?</p>
+                    <p><strong>Resposta:</strong> Seu amor por mim!</p>
+                </div>
+                <div>
+                    <p><strong>Charada 2:</strong> O que é, o que é: quanto mais a gente divide, mais cresce?</p>
+                    <p><strong>Resposta:</strong> O amor entre nós.</p>
+                </div>
+                <div>
+                    <p><strong>Charada 3:</strong> O que é, o que é: sempre que você o solta, ele voa para você?</p>
+                    <p><strong>Resposta:</strong> Um beijo!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Brincadeiras e Perguntas Divertidas</h2>
+            <p><strong>Pergunta 1:</strong> Qual é o seu maior sonho? (Espero que seja ser feliz ao meu lado!)</p>
+            <p><strong>Pergunta 2:</strong> Se fosse para escolher um lugar para viajar, onde iríamos? Vamos planejar nossa próxima aventura!</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Galeria de Fotos</h2>
+            <p>Aqui estão algumas fotos que guardo com muito carinho, que representam a nossa história!</p>
+            <div class="photo-gallery">
+                <!-- Aqui você pode substituir com as fotos que quiser adicionar -->
+                <img src="c:\Users\pedro\Pictures\Imagem do WhatsApp de 2025-03-05 à(s) 08.16.37_a03f87b4.jpg" alt="Foto 1">
+                <img src="sua_foto_2.jpg" alt="Foto 2">
+                <img src="sua_foto_3.jpg" alt="Foto 3">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Te amo para sempre, e mais a cada dia. ❤️</p>
+    </footer>
+
+    <!-- Pétalas caindo -->
+    <div class="peta-rosa" style="animation-delay: 1s;"></div>
+    <div class="peta-rosa" style="animation-delay: 2s;"></div>
+    <div class="peta-rosa" style="animation-delay: 3s;"></div>
+</body>
+</html>
